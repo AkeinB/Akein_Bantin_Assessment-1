@@ -1,2 +1,152 @@
+/* Google Font for a modern animation look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-    
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for contrast */
+    color: #fff; /* White text */
+}
+
+/* Header & Navigation */
+header {
+    background: linear-gradient(135deg, #ff6b6b, #556270);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#banner h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#banner h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 5px 0 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Section Styling */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Illustrations & Puppet Rigs */
+#illustrations, #rigs, #animation {
+    margin-bottom: 40px;
+}
+
+#illustrations h2, #rigs h2, #animation h2 {
+    font-size: 2em;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.6);
+}
+
+/* Images */
+.ill, .rig {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.ill:hover, .rig:hover {
+    transform: scale(1.1);
+}
+
+/* YouTube Video Styling */
+iframe {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* About Us Page */
+#about, #founder {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+#about h2, #founder h2 {
+    color: #ffcc00;
+}
+
+#profile {
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid #ffcc00;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ill, .rig {
+        width: 90%;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
