@@ -29,6 +29,8 @@ header {
     font-size: 1.2em;
     font-weight: 300;
     margin: 5px 0 0;
+    color: white;
+    text-shadow: none;
 }
 
 nav {
@@ -60,7 +62,7 @@ main {
     margin-bottom: 40px;
 }
 
-#illustrations h2, #rigs h2, #animation h2, #puppet {
+#illustrations h2, #rigs h2, #animation h2, h2{
     font-size: 2em;
     color: #ffcc00;
     text-shadow: 2px 2px 5px rgba(255, 204, 0, 0.6);
