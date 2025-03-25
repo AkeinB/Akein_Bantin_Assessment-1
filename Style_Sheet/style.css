@@ -97,7 +97,7 @@ iframe {
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
 }
 
-#about h2, #founder h2, #puppet {
+#about h2, #founder h2, h2 {
     color: #ffcc00;
 }
 
@@ -149,4 +149,12 @@ footer a:hover {
         display: block;
         margin: 10px 0;
     }
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 5px 0 0;
+    padding-bottom: 20px;
+    
 }
